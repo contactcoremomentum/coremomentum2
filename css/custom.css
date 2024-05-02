@@ -1,0 +1,131 @@
+/* fonts */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+.sora-normal {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sora-bold {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+  font-family: "Sora", sans-serif;
+}
+p {
+  font-size: 1.3em;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* Jumbotron */
+  .jumbotron{
+    margin-top: 110px;
+  }
+/* Header Image */
+.header-image-custom {
+    background: url('../images/inside-school.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    color: #ffffff;
+    /* text-shadow: 1px 1px 12px rgba(0,0,0,0.48); */
+    text-align: center;
+
+}
+.header-image-custom h1 {
+    font-size: 5em;
+    
+    
+} .header-image-custom p {
+    font-size: 1.87em;
+    
+}
+.text-adjust {
+    height: 350px;
+}
+
+.welcome-message {
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+.welcome-message small {
+    text-decoration: underline;
+}
+.welcome-message h2 {
+    padding: 20px;
+
+}
+
+.adjust-meassge {
+  top: 83% !important;
+  left: 440px !important;
+  width: 620px;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.custom-width {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.background-content-adjust {
+  height: 250px;
+}
+
+/* button */
+.btn {
+  padding: 1.2rem 1.5rem ;
+  font-size: 1rem;
+  border-radius: 40em;
+
+}
+/* nav */
+.nav-item {
+  padding: 0 30px;
+}
+.logo-adjust {
+  width: 90px;
+}
+.form-height {
+  height: 270px !important;
+}
