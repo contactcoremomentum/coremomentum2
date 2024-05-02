@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Sample Website</title>
+    
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/jumbotron/"> -->
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/main.min.css" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Bootstrap IconCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- /* Date Picker */ -->
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+     <!-- Bootstrap core Script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- /* Date Picker */ -->
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <!-- Custom JS -->
+    <script src="js/custom-script.js"></script>   
+    
+  </head>
+  <body>
+    
+<main>
+
+  <header>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="ligh"> 
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/CMV-Logo.svg" class="logo-adjust"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          <!-- <button type="button" class="btn btn-primary me-2">Trete jetzt bei</button> -->
+          <a href ="#inquiry"><button type="button" class="btn btn-md btn-primary">Jetzt anfragen</button></a>
+
+        </form>
+      </div>
+    </div>
+  </nav> <!-- End of Navigation Bar -->
+</header>
+<div class="container-fluid p-0" >
+<div class="header-image-custom">
+  <div class="col-md-10 col-lg-8">
+  
+  <div class="position-relative text-adjust w-100">
+    <div class="position-absolute translate-middle adjust-meassge text-start">
+      <h1>Entdecke, Lerne, Wachse!</h1>
+      <p>Begleite uns zur Inspiration und Veränderung.</p>
+      <div class="d-block gap-3">
+        <a href="#inquiry"><button type="button" class="btn btn-primary btn-lg me-2">Jetzt anfragen</button></a>
+        <a href="#contact"><button type="button" class="btn btn-light btn-lg text-dark">Kontaktiere uns</button></a>
+        <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+      </div>
+        
+    </div>
+  </div>
+</div> 
+    <!-- <div class="col-10 col-sm-8 col-lg-6">
+      <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div> -->
+    <!-- <div class="col-md-6 col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+      </div>
+    </div> -->
+  
+</div>
+
+</div>
+
+
+  <div class="container py-4" id="about">
+    <!-- <header class="pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+        <span class="fs-4">Jumbotron example</span>
+      </a>
+    </header> -->
+
+   
+     
+   
+<!-- 
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      </div>
+    </div> -->
+   
+    <!-- <div class="row align-items-md-stretch mt-4">
+      <div class="col-md-6 mb-4">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Enrollment</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Contact Us</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    
+    </div> -->
+
+    <div class="row text-center mt-4">
+      <div class="col-8 offset-md-2 text-center">
+      <h3 class="mb-3">Über die Schule</h3>
+      <p class="mb-4 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </div>
+
+    <!-- <div class="row align-items-md-stretch mt-4">
+      <div class="col-md-4 mb-4">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    </div> -->
+
+
+   
+    
+  </div>
+
+
+
+  <div class="container-fluid pt-2 welcome-message" id="inquiry">
+    <div class="row bg-primary w-100 pb-3">
+     
+        <div class="col-md-12 p-4">
+          <!-- <small>Jetzt anfragen</small> -->
+          <!-- <h2>Inspirieren, Stärken, Erheben</h2>
+          <p>Wir glauben an die transformative Kraft vielfältiger Erfahrungen für Schüler. Unser Lernprogramm, das der IB-Philosophie folgt, umfasst Sport.</div></p> -->
+            <div class="row">
+              <div class="col-8 offset-2 text-dark">
+                <h2>Discover the Range of Inquiries at Our School</h2>
+                <p>Students frequently seek information on admissions, course offerings, financial aid options, registration procedures, and academic guidance. On the other hand, employees often inquire about job vacancies, HR policies, training opportunities, and campus facilities. These inquiries play a crucial role in providing students and staff with the necessary information and support for a fulfilling school journey.</p> 
+
+              </div>
+
+              <div class="col-6 offset-3 p-4 pl-5 rounded text-dark mb-4">
+
+                <form>
+                  
+                  <h1 class="h3 mb-3 fw-normal text-start">Unsere Hilfe für Sie</h1>
+              
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingPassword" placeholder="Name">
+                    <label for="floatingPassword">Name</label>
+                  </div>
+    
+                  <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelectGrid">
+                      <option selected>Admissions Inquiries</option>
+                      <option value="1">Program/Course Inquiries:</option>
+                      <option value="2">Financial Aid/Scholarship Inquiries</option>
+                      <option value="3">Registration/Enrollment Inquiries</option>
+                      <option value="4">Academic Advising</option>
+                      <option value="5">Student Services</option>
+                      <option value="5">Employment Opportunities</option>
+                    </select>
+                    <label for="floatingSelectGrid">Type Of Inquiry</label>
+                  </div>
+    
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control form-height" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea height">Comments</label>
+                  </div>
+              
+                  <!-- <div class="form-check text-start my-3">
+                    <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Remember me
+                    </label>
+                  </div> -->
+                  <button class="btn btn-secondary btn-lg w-100 mt-3" type="submit">Senden Sie das Formular jetzt ab</button>
+                  
+                </form>
+    
+    
+               
+              </div>
+
+            </div>
+
+          
+
+              <!-- <div class="position-relative custom-width background-content-adjust">
+                <div class="position-absolute align-items-md-stretch">
+
+                      <div class="row">
+                        <div class="col-md-4 mb-4">
+                          <div class="h-100 p-5 text-white bg-dark rounded-3">
+                            <h2>Change the background</h2>
+                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                            <button class="btn btn-outline-light" type="button">Example button</button>
+                          </div>
+                        </div>
+                        <div class="col-md-4  mb-4">
+                          <div class="h-100 p-5 text-white bg-dark rounded-3">
+                            <h2>Change the background</h2>
+                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                            <button class="btn btn-outline-light" type="button">Example button</button>
+                          </div>
+                        </div>
+                        <div class="col-md-4  mb-4">
+                          <div class="h-100 p-5 text-white bg-dark rounded-3">
+                            <h2>Change the background</h2>
+                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                            <button class="btn btn-outline-light" type="button">Example button</button>
+                          </div>
+                        </div>
+                      </div>
+                    
+              </div>
+              
+              </div> -->
+          
+        </div>
+  </div>
+    
+  <div class="container-fluid bg-secondary" id="contact">
+    <div class="row pt-5 pb-5">
+      <div class="col-7 text-white p-5">
+        <h3 class="mb-3 text-start">Verbinden wir uns</h3>
+        <div class="row mt-5">
+          <div class="col-1 text-start"><i class="bi bi-pin-map fs-4"></i></div>
+          <div class="col-11 text-start"><p>Falkensteiner Str.1-4 <br>08209 Auerbach / Vogtland</p></div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-start"><i class="bi bi-phone fs-4"></i></div>
+          <div class="col-11 text-start"><p>0171 2669946</p></div>
+        </div>
+        <div class="row">
+          <div class="col-1 text-center"><i class="bi bi-mailbox-flag fs-4"></i></div>
+          <div class="col-11 text-start"><p><a href="mailto:manuela.zahradnik@coremomentumvoicepool.com">manuela.zahradnik@coremomentumvoicepool.com</a></p></div>
+        </div>
+    </div>
+        <div class="col-5 text-white">
+        <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.6131816595325!2d12.396178476363762!3d50.50415667160254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a0da627e6c004d%3A0xd9d61959242615de!2sFalkensteiner%20Str.%201%2C%2008209%20Auerbach%2FVogtland%2C%20Germany!5e0!3m2!1sen!2ssg!4v1714114293762!5m2!1sen!2ssg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </div>
+  </div>
+
+ 
+
+
+<div class="container-fluid mt-4 mb-4">
+  <footer class="pt-3 mt-4 text-muted border-top text-center">
+    &copy; 2024 Core Momentum Voice Pool 
+
+
+  </footer>
+</div>
+
+
+</main>
+
+
+    
+  </body>
+</html>
